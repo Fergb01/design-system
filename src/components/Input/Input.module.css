@@ -1,5 +1,3 @@
-/* Input.module.css */
-
 .field {
   display: flex;
   flex-direction: column;
@@ -56,7 +54,6 @@
   background: var(--color-bg-alt);
 }
 
-/* Error state */
 .wrapper--error .input {
   border-color: #D95F5F;
 }
@@ -65,7 +62,6 @@
   box-shadow: 0 0 0 3px color-mix(in srgb, #D95F5F 15%, transparent);
 }
 
-/* Icon */
 .wrapper--icon .input {
   padding-left: 2.5rem;
 }
@@ -80,7 +76,6 @@
   pointer-events: none;
 }
 
-/* Helper / error text */
 .helper {
   font-family: var(--font-mono);
   font-size: 0.6875rem;
