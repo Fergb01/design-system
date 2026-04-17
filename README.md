@@ -1,8 +1,8 @@
-# Fer Design System
+# Design System
 
 A design system built with React — design tokens, reusable components, and an interactive showcase.
 
-**[Live Demo →](https://fergb01.github.io/fer-design-system/)**
+**[Live Demo →](https://fergb01.github.io/design-system/)**
 
 ---
 
