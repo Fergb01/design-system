@@ -1,15 +1,5 @@
 /**
- * Badge.jsx
- *
  * Small label component for status, categories, and counts.
- *
- * Variants: default | success | warning | error | info
- * Sizes:    sm | md
- *
- * Usage:
- *   <Badge variant="success">Active</Badge>
- *   <Badge variant="warning" size="sm">Pending</Badge>
- *   <Badge variant="error">Failed</Badge>
  */
 
 import styles from './Badge.module.css';
