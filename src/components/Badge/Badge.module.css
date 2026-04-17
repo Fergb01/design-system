@@ -1,0 +1,80 @@
+/* Badge.module.css */
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  font-family: var(--font-mono);
+  font-weight: 400;
+  border-radius: var(--radius-full);
+  border: 1px solid transparent;
+  white-space: nowrap;
+  letter-spacing: 0.06em;
+}
+
+/* ── Sizes ── */
+.badge--sm {
+  font-size: 0.625rem;
+  padding: 0.1875rem 0.5rem;
+}
+.badge--md {
+  font-size: 0.6875rem;
+  padding: 0.3125rem 0.75rem;
+}
+
+/* ── Dot indicator ── */
+.dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background: currentColor;
+  opacity: 0.7;
+}
+
+/* ── Variants ── */
+.badge--default {
+  background: var(--color-bg-alt);
+  color: var(--color-ink-2);
+  border-color: var(--color-border);
+}
+
+.badge--success {
+  background: color-mix(in srgb, #6EBF8B 12%, transparent);
+  color: #3a8a5a;
+  border-color: color-mix(in srgb, #6EBF8B 30%, transparent);
+}
+[data-theme='dark'] .badge--success {
+  color: #6EBF8B;
+  background: color-mix(in srgb, #6EBF8B 15%, transparent);
+}
+
+.badge--warning {
+  background: color-mix(in srgb, #E8A838 12%, transparent);
+  color: #a06b10;
+  border-color: color-mix(in srgb, #E8A838 30%, transparent);
+}
+[data-theme='dark'] .badge--warning {
+  color: #E8A838;
+  background: color-mix(in srgb, #E8A838 15%, transparent);
+}
+
+.badge--error {
+  background: color-mix(in srgb, #D95F5F 12%, transparent);
+  color: #a03030;
+  border-color: color-mix(in srgb, #D95F5F 30%, transparent);
+}
+[data-theme='dark'] .badge--error {
+  color: #D95F5F;
+  background: color-mix(in srgb, #D95F5F 15%, transparent);
+}
+
+.badge--info {
+  background: color-mix(in srgb, #5F8ED9 12%, transparent);
+  color: #2a5aaa;
+  border-color: color-mix(in srgb, #5F8ED9 30%, transparent);
+}
+[data-theme='dark'] .badge--info {
+  color: #5F8ED9;
+  background: color-mix(in srgb, #5F8ED9 15%, transparent);
+}
